@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="SEND"
+        android:id="@+id/SendView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#720719"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:id="@+id/button12"
+        android:background="#720719"
+        android:textColor="#ffffff"
+        android:textSize="36dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="250dp"
+        android:text="Du skal til at poste til følgende:"
+        android:id="@+id/textView"
+        android:textSize="22dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#f1eeee" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="- Hjemmeside"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/textView9"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="- Facebook"
+        android:id="@+id/textView9"
+        android:layout_above="@+id/textView12"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="- Twitter"
+        android:id="@+id/textView12"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="- LinkedIn"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/textView" />
+
+</RelativeLayout>

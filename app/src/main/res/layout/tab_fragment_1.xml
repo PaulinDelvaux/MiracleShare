@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Vælg Medie"
+        android:id="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:elegantTextHeight="false"
+        android:layout_alignParentRight="false"
+        android:background="#886360" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hjemmeside"
+        android:id="@+id/HButton"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:id="@+id/radioButton"
+        android:textSize="25dp"
+        android:layout_below="@+id/HButton"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:id="@+id/radioButton2"
+        android:textSize="25dp"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinkedIn"
+        android:id="@+id/radioButton3"
+        android:textSize="25dp"
+        android:layout_below="@+id/radioButton2"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
